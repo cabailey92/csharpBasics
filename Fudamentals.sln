@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "01_Variables\V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes", "02_Types\BasicTypes.csproj", "{0270F61F-92B1-4FD6-B33D-D3612DFDD0ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "03_Operators\Operators.csproj", "{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{0270F61F-92B1-4FD6-B33D-D3612DFDD0ED}.Release|x64.Build.0 = Release|Any CPU
 		{0270F61F-92B1-4FD6-B33D-D3612DFDD0ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{0270F61F-92B1-4FD6-B33D-D3612DFDD0ED}.Release|x86.Build.0 = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|x64.Build.0 = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Debug|x86.Build.0 = Debug|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|x64.ActiveCfg = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|x64.Build.0 = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|x86.ActiveCfg = Release|Any CPU
+		{48A8C4ED-D438-4886-A6EC-8B56A5CEAED9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
