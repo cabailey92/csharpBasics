@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_conditionals", "06_condi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "06_conditionals\IfStatements\Conditionals.csproj", "{D8D27C72-C991-459B-A8F0-F61FBCEA560B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternaries", "06_Conditionals\Ternaries\Ternaries.csproj", "{24545738-8B1D-43A1-A1DE-2F2F9E065225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,8 +104,21 @@ Global
 		{D8D27C72-C991-459B-A8F0-F61FBCEA560B}.Release|x64.Build.0 = Release|Any CPU
 		{D8D27C72-C991-459B-A8F0-F61FBCEA560B}.Release|x86.ActiveCfg = Release|Any CPU
 		{D8D27C72-C991-459B-A8F0-F61FBCEA560B}.Release|x86.Build.0 = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|x64.Build.0 = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Debug|x86.Build.0 = Debug|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|x64.ActiveCfg = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|x64.Build.0 = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|x86.ActiveCfg = Release|Any CPU
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8D27C72-C991-459B-A8F0-F61FBCEA560B} = {6B78CCF5-EDB2-4A6F-B84F-B8436693B956}
+		{24545738-8B1D-43A1-A1DE-2F2F9E065225} = {6B78CCF5-EDB2-4A6F-B84F-B8436693B956}
 	EndGlobalSection
 EndGlobal
