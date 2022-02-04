@@ -8,6 +8,13 @@ namespace Switches
         {
             Console.WriteLine("Please give us your name!");
             string name = Console.ReadLine();
+            string greeting = name switch
+            {
+                "Chris" => "Hello Chris",
+                _=> "Who are you?"
+            };
+            Console.WriteLine(greeting);
+
             switch(name)
             {
                 case "Chris":
@@ -39,8 +46,24 @@ namespace Switches
                 Console.WriteLine("Sorry, but there's always tomorrow.");
                 break;
                 default:
+                break;
                 Console.WriteLine("Sorry, what you put in is not what we asked");
             }
+
+
+            Console.WriteLine("How were you feeling yesterday on a scale of 1-5?");
+            string ratingInput = Console.ReadLine();
+            int yesterdayRating =int.Parse(ratingInput);
+
+            string response = yesterdayRating switch
+            {
+                1 => "Dang, Maybe today wil be better",
+                2 => "Oh, Sorry to hear that.",
+                3 => "Nice, sound like a good day",
+                4 => "Good stuff",
+                5 => "That is wonderful to hear",
+                _ => "Man you are off the charts"
+                };
         }
     }
 }
