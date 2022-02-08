@@ -103,6 +103,36 @@ namespace Classes
                         Console.WriteLine(randomGreeting);
                     }
                 }
+                class Calculator
+                {
+                    public int Add(int numOne, int numTwo)
+                    {
+                        return numOne + numTwo;
+                    }
+                    public int Subtract(int numOne, int numTwo)
+                    {
+                        return numOne - numTwo;
+                    }
+                    public int Multiply(int numOne, int numTwo)
+                    {
+                        return numOne * numTwo;
+                    }
+                    public int Divide(int numOne, int numTwo)
+                    {
+                        return numOne / numTwo;
+                    }
+                    public int Remainder(int numOne, int numTwo)
+                    {
+                        return numOne % numTwo;
+                    }
+                    public int Age(DateTime birthdate)
+                    {
+                        TimeSpan ageSpan = DateTime.Now - birthdate;
+                        double totalAgeInYears = ageSpan.Totaldays / 365.25;
+                        int years = Convert.ToInt32(Math.Floor(totalAgeInYears));
+                        return years;
+                    }
+                }
 
 
 
