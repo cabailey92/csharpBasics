@@ -112,6 +112,10 @@ namespace Classes
                     {
                         return numOne + numTwo;
                     }
+                    public double Add(double numOne, double numTwo)
+                    {
+                        return numOne + numTwo;
+                    }
                     public int Subtract(int numOne, int numTwo)
                     {
                         return numOne - numTwo;
@@ -136,6 +140,29 @@ namespace Classes
                         return years;
                     }
                 }
+                class Person
+                {
+                    public string FirstName { get; set; }
+                    public string LastName { get; set; }
+                    //Read only Property
+                    public string FullName
+                    { 
+                        get
+                        {
+                            return FirstName + " " + LastName;
+                        }
+                    }
+                    
+                    public DateTime DateOfBirth {get; set;}
+                    
+                    public int Age
+                    {
+                        get
+                        {
+                            Calculator calc = new Calculator();
+                            return calc.Age(DateOfBirth);
+                        }
+                    }
 
 
 
