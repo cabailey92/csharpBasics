@@ -29,7 +29,15 @@ namespace Classes
             Calculator calculator = new Calculator();
             Console.WriteLine(calculator.Age(new DateTime(1991,05,04)));
             
-            
+            Person me = new Person();
+            me.FirstName = "Chris";
+            me.LastName = "Bailey";
+            me.DateOfBirth = new DateTime(1991,05,04);
+
+            me.Introduction();
+
+            Person luke = new Person("Luke","Skywalker",new DateTime(1985,10,5));
+            luke.Introduction();
             namespace Classes
             {
             
@@ -142,6 +150,12 @@ namespace Classes
                 }
                 class Person
                 {
+                    public Person(string firstName, string lastName, DateTime dOB){
+                        FirstName = firstName;
+                        LastName = lastName;
+                        DateOfBirth = dOB;
+                    }
+
                     public string FirstName { get; set; }
                     public string LastName { get; set; }
                     //Read only Property
@@ -162,6 +176,17 @@ namespace Classes
                             Calculator calc = new Calculator();
                             return calc.Age(DateOfBirth);
                         }
+                    }
+
+                    public void Greet()
+                    {
+                        Greeter greeter =new Greeter();
+                        greeter.PrintHello(FullName);
+                    }
+
+                    public void Introduction(){
+                        Greeter greeter = new Greeter();
+                        Console.Write($"{greeter.RandomGreeting()}, my name is {FullName} and I am {Age} years old!");
                     }
 
 
