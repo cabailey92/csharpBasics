@@ -14,6 +14,7 @@ namespace Variables
         string color = Console.ReadLine();
 
         Console.WriteLine("You said your color is " + color);
+        
         }
     }
 }
