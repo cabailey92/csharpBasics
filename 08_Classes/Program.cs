@@ -24,7 +24,10 @@ namespace Classes
             greet.PrintHello("Alex");
             greet.PrintHello("Tony");
 
-            greet.PrintRandomGreeting
+            greet.PrintRandomGreeting();
+
+            Calculator calculator = new Calculator();
+            Console.WriteLine(calculator.Age(new DateTime(1991,05,04)));
             
             
             namespace Classes
